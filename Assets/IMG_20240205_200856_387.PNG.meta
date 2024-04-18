@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 71ec92b2fa4b1c141965d55780082a3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7925008618755893010
+    second: face
+  - first:
+      213: 4451709086343807935
+    second: neck
+  - first:
+      213: 6258200972168371553
+    second: chest
+  - first:
+      213: -6709003450021088152
+    second: stomach
+  - first:
+      213: 3237232880939100964
+    second: glutes
+  - first:
+      213: -2575040775699885160
+    second: hand_R
+  - first:
+      213: 1710491207517160320
+    second: hand_L
+  - first:
+      213: 2861612116105609394
+    second: arm_R
+  - first:
+      213: 3786696433564765891
+    second: forearm_R
+  - first:
+      213: -8853689505379359099
+    second: arm_L
+  - first:
+      213: 838786198542971447
+    second: forearm_L
+  - first:
+      213: -6835088457661840998
+    second: foot_R
+  - first:
+      213: -1577188576198138948
+    second: thigh_R
+  - first:
+      213: 7809685696836479505
+    second: IMG_20240205_200856_387_13
+  - first:
+      213: 4868191053695563046
+    second: IMG_20240205_200856_387_14
+  - first:
+      213: 8712416288542980168
+    second: IMG_20240205_200856_387_15
+  - first:
+      213: -4799220699544017927
+    second: IMG_20240205_200856_387_16
+  - first:
+      213: -3541593671022843692
+    second: IMG_20240205_200856_387_17
+  - first:
+      213: -545012046192544616
+    second: IMG_20240205_200856_387_18
+  - first:
+      213: 5527554794279359472
+    second: IMG_20240205_200856_387_19
+  - first:
+      213: -3424263837329259400
+    second: IMG_20240205_200856_387_20
+  - first:
+      213: -7552522662716536039
+    second: IMG_20240205_200856_387_21
+  - first:
+      213: 4029134322007634108
+    second: IMG_20240205_200856_387_22
+  - first:
+      213: -8661171499895281164
+    second: IMG_20240205_200856_387_23
+  - first:
+      213: -1865830032610640480
+    second: IMG_20240205_200856_387_24
+  - first:
+      213: -2980050485745036917
+    second: IMG_20240205_200856_387_25
+  - first:
+      213: 2965483966766639160
+    second: IMG_20240205_200856_387_26
+  - first:
+      213: -780523145264082703
+    second: IMG_20240205_200856_387_27
+  - first:
+      213: -7252061762804259103
+    second: IMG_20240205_200856_387_28
+  - first:
+      213: 1950268830560069008
+    second: IMG_20240205_200856_387_29
+  - first:
+      213: 2919982167734627251
+    second: IMG_20240205_200856_387_30
+  - first:
+      213: -1657666930207176728
+    second: IMG_20240205_200856_387_31
+  - first:
+      213: 1594430435305125946
+    second: IMG_20240205_200856_387_32
+  - first:
+      213: 8136913977714712145
+    second: IMG_20240205_200856_387_33
+  - first:
+      213: -3242329524262085276
+    second: IMG_20240205_200856_387_34
+  - first:
+      213: 3958293934135003058
+    second: IMG_20240205_200856_387_35
+  - first:
+      213: 3553257675868643699
+    second: IMG_20240205_200856_387_36
+  - first:
+      213: -5119889600808791267
+    second: IMG_20240205_200856_387_37
+  - first:
+      213: -7922367101739371863
+    second: IMG_20240205_200856_387_38
+  - first:
+      213: 784574728252335780
+    second: IMG_20240205_200856_387_39
+  - first:
+      213: -6197912984877353710
+    second: IMG_20240205_200856_387_40
+  - first:
+      213: 8456345327120129607
+    second: IMG_20240205_200856_387_41
+  - first:
+      213: -208323780894585005
+    second: IMG_20240205_200856_387_42
+  - first:
+      213: 4041542174589811682
+    second: IMG_20240205_200856_387_43
+  - first:
+      213: -8530590655636062890
+    second: IMG_20240205_200856_387_44
+  - first:
+      213: -3316964331918703579
+    second: IMG_20240205_200856_387_45
+  - first:
+      213: 5139737077116111630
+    second: IMG_20240205_200856_387_46
+  - first:
+      213: 109861552695237194
+    second: IMG_20240205_200856_387_47
+  - first:
+      213: -1163267374940899952
+    second: IMG_20240205_200856_387_48
+  - first:
+      213: 3895595263142676270
+    second: IMG_20240205_200856_387_49
+  - first:
+      213: -8562320813723195812
+    second: IMG_20240205_200856_387_50
+  - first:
+      213: 1081788437099406146
+    second: IMG_20240205_200856_387_51
+  - first:
+      213: 1314768603885132442
+    second: IMG_20240205_200856_387_52
+  - first:
+      213: 8638239090821849622
+    second: IMG_20240205_200856_387_53
+  - first:
+      213: 9196442877260647846
+    second: IMG_20240205_200856_387_54
+  - first:
+      213: 2936689403437256176
+    second: IMG_20240205_200856_387_55
+  - first:
+      213: -3521485533305365633
+    second: IMG_20240205_200856_387_56
+  - first:
+      213: 5383377031539276998
+    second: IMG_20240205_200856_387_57
+  - first:
+      213: 3693275244292689642
+    second: IMG_20240205_200856_387_58
+  - first:
+      213: 6923968304626939612
+    second: IMG_20240205_200856_387_59
+  - first:
+      213: 2883439007959862800
+    second: IMG_20240205_200856_387_60
+  - first:
+      213: -5961010803828639183
+    second: IMG_20240205_200856_387_61
+  - first:
+      213: -2164809792741657676
+    second: IMG_20240205_200856_387_62
+  - first:
+      213: -7290269434983345795
+    second: IMG_20240205_200856_387_63
+  - first:
+      213: -5030193142518463065
+    second: IMG_20240205_200856_387_64
+  - first:
+      213: -8782811664586246537
+    second: IMG_20240205_200856_387_65
+  - first:
+      213: 5103139019284833961
+    second: IMG_20240205_200856_387_66
+  - first:
+      213: 7783214855814000531
+    second: IMG_20240205_200856_387_67
+  - first:
+      213: -1203914410808553755
+    second: IMG_20240205_200856_387_68
+  - first:
+      213: -8202558855710300651
+    second: IMG_20240205_200856_387_69
+  - first:
+      213: 4827101578222715627
+    second: IMG_20240205_200856_387_70
+  - first:
+      213: -933267219242545133
+    second: IMG_20240205_200856_387_71
+  - first:
+      213: 4241692027673071197
+    second: IMG_20240205_200856_387_72
+  - first:
+      213: -7333078902288343153
+    second: IMG_20240205_200856_387_73
+  - first:
+      213: -4425488453195068725
+    second: IMG_20240205_200856_387_74
+  - first:
+      213: 2651684561249519182
+    second: IMG_20240205_200856_387_75
+  - first:
+      213: 8937658205834211042
+    second: IMG_20240205_200856_387_76
+  - first:
+      213: -4915896363908439482
+    second: IMG_20240205_200856_387_77
+  - first:
+      213: 2463739039935539210
+    second: IMG_20240205_200856_387_78
+  - first:
+      213: -6666172555110331190
+    second: IMG_20240205_200856_387_79
+  - first:
+      213: 8215962788129773122
+    second: IMG_20240205_200856_387_80
+  - first:
+      213: -7416082979607908847
+    second: IMG_20240205_200856_387_81
+  - first:
+      213: 6776226787656419634
+    second: IMG_20240205_200856_387_82
+  - first:
+      213: 2321356862712639402
+    second: IMG_20240205_200856_387_83
+  - first:
+      213: 853359769155921647
+    second: IMG_20240205_200856_387_84
+  - first:
+      213: 6644952838236997437
+    second: IMG_20240205_200856_387_85
+  - first:
+      213: 7582468507446754679
+    second: IMG_20240205_200856_387_86
+  - first:
+      213: -6105440984797024465
+    second: IMG_20240205_200856_387_87
+  - first:
+      213: -7909657706187613888
+    second: IMG_20240205_200856_387_88
+  - first:
+      213: -5180104774066674633
+    second: IMG_20240205_200856_387_89
+  - first:
+      213: -912555415739003456
+    second: IMG_20240205_200856_387_90
+  - first:
+      213: -5355330866248786668
+    second: IMG_20240205_200856_387_91
+  - first:
+      213: 2047065405922156421
+    second: IMG_20240205_200856_387_92
+  - first:
+      213: -3562758001546579171
+    second: IMG_20240205_200856_387_93
+  - first:
+      213: 1360528941374572231
+    second: IMG_20240205_200856_387_94
+  - first:
+      213: 740762539831662911
+    second: IMG_20240205_200856_387_95
+  - first:
+      213: 8504464497663766279
+    second: IMG_20240205_200856_387_96
+  - first:
+      213: -3844376383664637915
+    second: IMG_20240205_200856_387_97
+  - first:
+      213: 4861955357837591454
+    second: IMG_20240205_200856_387_98
+  - first:
+      213: 3363854708639420836
+    second: IMG_20240205_200856_387_99
+  - first:
+      213: -7900812039887671068
+    second: IMG_20240205_200856_387_100
+  - first:
+      213: -3273569202125810261
+    second: IMG_20240205_200856_387_101
+  - first:
+      213: -3535896776329359750
+    second: IMG_20240205_200856_387_102
+  - first:
+      213: 8414380425391363951
+    second: IMG_20240205_200856_387_103
+  - first:
+      213: -2632405854316288608
+    second: IMG_20240205_200856_387_104
+  - first:
+      213: 7957551384527787165
+    second: IMG_20240205_200856_387_105
+  - first:
+      213: -7417409920974654450
+    second: IMG_20240205_200856_387_106
+  - first:
+      213: -7320958361381255332
+    second: IMG_20240205_200856_387_107
+  - first:
+      213: 1953940208178770824
+    second: IMG_20240205_200856_387_108
+  - first:
+      213: -1157155484017044386
+    second: IMG_20240205_200856_387_109
+  - first:
+      213: 3256771376231530964
+    second: IMG_20240205_200856_387_110
+  - first:
+      213: 1197321856907119554
+    second: IMG_20240205_200856_387_111
+  - first:
+      213: -92386080023675678
+    second: IMG_20240205_200856_387_112
+  - first:
+      213: -8001880574654886159
+    second: IMG_20240205_200856_387_113
+  - first:
+      213: -690428879579797561
+    second: IMG_20240205_200856_387_114
+  - first:
+      213: -5702563300345206492
+    second: IMG_20240205_200856_387_115
+  - first:
+      213: -4878824230491336001
+    second: IMG_20240205_200856_387_116
+  - first:
+      213: 1408661278209503370
+    second: IMG_20240205_200856_387_117
+  - first:
+      213: 2473323523100831452
+    second: IMG_20240205_200856_387_118
+  - first:
+      213: -527773558394577473
+    second: IMG_20240205_200856_387_119
+  - first:
+      213: 4280171575487443601
+    second: IMG_20240205_200856_387_120
+  - first:
+      213: -4507292240080779267
+    second: IMG_20240205_200856_387_121
+  - first:
+      213: 2974010981457351261
+    second: IMG_20240205_200856_387_122
+  - first:
+      213: 8143595314740192923
+    second: IMG_20240205_200856_387_123
+  - first:
+      213: -6303797455502813514
+    second: IMG_20240205_200856_387_124
+  - first:
+      213: -1783745217050338581
+    second: IMG_20240205_200856_387_125
+  - first:
+      213: 4804868921276755627
+    second: IMG_20240205_200856_387_126
+  - first:
+      213: -7280076307497628100
+    second: IMG_20240205_200856_387_127
+  - first:
+      213: -6287024343237866935
+    second: IMG_20240205_200856_387_128
+  - first:
+      213: -2439302974536079957
+    second: IMG_20240205_200856_387_129
+  - first:
+      213: -3682242844266579963
+    second: IMG_20240205_200856_387_130
+  - first:
+      213: -4692174362178413347
+    second: IMG_20240205_200856_387_131
+  - first:
+      213: -188881367388077000
+    second: IMG_20240205_200856_387_132
+  - first:
+      213: 6836522566323532426
+    second: IMG_20240205_200856_387_133
+  - first:
+      213: -3181958485836190315
+    second: IMG_20240205_200856_387_134
+  - first:
+      213: 7571107390771491966
+    second: IMG_20240205_200856_387_135
+  - first:
+      213: -8607111728355659310
+    second: IMG_20240205_200856_387_136
+  - first:
+      213: -977892798620195988
+    second: IMG_20240205_200856_387_137
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: face
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1839
+        width: 362
+        height: 537
+      alignment: 9
+      pivot: {x: 0.6273615, y: 0.16000962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217aadaa9594bfd60800000000000000
+      internalID: 7925008618755893010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neck
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1971
+        width: 144
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.30341166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c6eee3d5a7cd30800000000000000
+      internalID: 4451709086343807935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1998
+        width: 321
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d991770a899d650800000000000000
+      internalID: 6258200972168371553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stomach
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2036
+        width: 273
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1292862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8647f9478e4d4e2a0800000000000000
+      internalID: -6709003450021088152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glutes
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1554
+        width: 288
+        height: 270
+      alignment: 9
+      pivot: {x: 0.40467623, y: 0.82410073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42be6935726fcec20800000000000000
+      internalID: 3237232880939100964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_R
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1122
+        width: 111
+        height: 119
+      alignment: 9
+      pivot: {x: 0.20242557, y: 0.18277721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8931342ce0e934cd0800000000000000
+      internalID: -2575040775699885160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_L
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 912
+        width: 95
+        height: 126
+      alignment: 9
+      pivot: {x: 0.49212262, y: 0.8563736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0834d7fc0b2ecb710800000000000000
+      internalID: 1710491207517160320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm_R
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 926
+        width: 250
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0cd61ee0d76b720800000000000000
+      internalID: 2861612116105609394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forearm_R
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1253
+        width: 261
+        height: 189
+      alignment: 9
+      pivot: {x: 0.46898106, y: 0.4993341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cecdd2f75c0d8430800000000000000
+      internalID: 3786696433564765891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm_L
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1270
+        width: 277
+        height: 144
+      alignment: 9
+      pivot: {x: 0.13503973, y: 0.54719627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866240cd40612580800000000000000
+      internalID: -8853689505379359099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forearm_L
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1148
+        width: 190
+        height: 260
+      alignment: 9
+      pivot: {x: 0.7995707, y: 0.7842656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73277ae7a97f3ab00800000000000000
+      internalID: 838786198542971447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_R
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 44
+        width: 276
+        height: 547
+      alignment: 9
+      pivot: {x: 0.37848076, y: 0.85426474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9181b8f243e421a0800000000000000
+      internalID: -6835088457661840998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thigh_R
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 475
+        width: 248
+        height: 341
+      alignment: 9
+      pivot: {x: 0.5303089, y: 0.8085961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3e7e3a853bc1ae0800000000000000
+      internalID: -1577188576198138948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      face: 7925008618755893010
+      stomach: -6709003450021088152
+      hand_L: 1710491207517160320
+      chest: 6258200972168371553
+      thigh_R: -1577188576198138948
+      foot_R: -6835088457661840998
+      hand_R: -2575040775699885160
+      arm_R: 2861612116105609394
+      forearm_L: 838786198542971447
+      forearm_R: 3786696433564765891
+      neck: 4451709086343807935
+      glutes: 3237232880939100964
+      arm_L: -8853689505379359099
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

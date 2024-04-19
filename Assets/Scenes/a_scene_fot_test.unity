@@ -771,6 +771,7 @@ MonoBehaviour:
   lose_height: 0
   menuwin: {fileID: 0}
   menulose: {fileID: 0}
+  button: {fileID: 0}
   bullet: {fileID: 0}
   arrotransform: {fileID: 0}
   is_charkh: 0
@@ -2043,7 +2044,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 436300681}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1656460677}
+        m_TargetAssemblyTypeName: rostam_code, Assembly-CSharp
+        m_MethodName: set_partab_true
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &436300681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4681,7 +4694,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1004138580}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1656460677}
+        m_TargetAssemblyTypeName: rostam_code, Assembly-CSharp
+        m_MethodName: set_hit_true
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1004138580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10512,8 +10537,13 @@ PrefabInstance:
     - target: {fileID: 4023285240312650941, guid: ebdd0619db662c644a4fec42b0aca71d,
         type: 3}
       propertyPath: speed
-      value: 14
+      value: 34
       objectReference: {fileID: 0}
+    - target: {fileID: 4023285240312650941, guid: ebdd0619db662c644a4fec42b0aca71d,
+        type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 114676330}
     - target: {fileID: 4023285240312650941, guid: ebdd0619db662c644a4fec42b0aca71d,
         type: 3}
       propertyPath: m_Enabled

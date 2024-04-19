@@ -29,6 +29,7 @@ public class rostam_code : MonoBehaviour
     Animation anim;
     public GameObject menuwin;
     public GameObject menulose;
+    public GameObject button;
     float local_x;
     public GameObject bullet;
     public Transform arrotransform;
@@ -39,17 +40,20 @@ public class rostam_code : MonoBehaviour
     bool hit;
     bool charkh;
     bool partab;
+    Image im;
 
 
     void Start()
     {
         myrig = GetComponent<Rigidbody2D>();
+        im = button.GetComponent<Image>();   
         animator = GetComponent<Animator>();
         anim = GetComponent<Animation>();
         audioSource = GetComponent<AudioSource>();
         local_x=transform.localScale.x;
         menuwin.SetActive(false);
         menulose.SetActive(false);
+        
     }
 
 
@@ -82,7 +86,7 @@ public class rostam_code : MonoBehaviour
             is_charkh = false;
         }
 
-        if (Input.GetKey(KeyCode.E) && can_hit == true)
+        if (Input.GetKey(KeyCode.E) || hit == true && can_hit == true)
         {
             can_hit = false;
             //animator.SetBool("ishit", true);
@@ -98,7 +102,7 @@ public class rostam_code : MonoBehaviour
             ishiting=false;
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && can_tir == true)
+        if (Input.GetKeyDown(KeyCode.R) || partab == true && can_tir == true)
         {
             can_tir=false;
             animator.Play("tir");
@@ -154,9 +158,11 @@ public class rostam_code : MonoBehaviour
             }
             
             isjump= false;
-            charkh = false;
-        }
 
+        }
+        charkh = false;
+        hit = false;
+        partab = false;
     }
     
     void OnCollisionEnter2D(Collision2D collision)

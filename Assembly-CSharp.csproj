@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\levels.cs" />
     <Compile Include="Assets\Scripts\enemy_neize.cs" />
     <Compile Include="Assets\Scripts\khangar.cs" />
+    <Compile Include="Assets\Scripts\button_control.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

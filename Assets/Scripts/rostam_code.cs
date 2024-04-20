@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
+//using UnityEngine.UIElements;
+using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
 
 public class rostam_code : MonoBehaviour
 {
+    int health = 3;
     public int speed;
     public int jump;
     public bool ishiting;
@@ -29,30 +31,40 @@ public class rostam_code : MonoBehaviour
     Animation anim;
     public GameObject menuwin;
     public GameObject menulose;
-    public GameObject button;
+  //  public GameObject button;
     float local_x;
     public GameObject bullet;
     public Transform arrotransform;
-    bool can_hit= true;
+    public bool can_hit= true;
     bool can_tir = true;
     bool can_charkh = true;
     public bool is_charkh;
-    bool hit;
+    public bool hit;
     bool charkh;
     bool partab;
-    Image im;
+    public GameObject tir_button_black;
+    public GameObject charkh_button_black;
+    public GameObject hit_button_black;
+    Transform portal;
+    Vector3 popo;
+   // Image im;
 
 
     void Start()
     {
+        portal = transform;
+        //portal.position = 
+        popo = new Vector3(transform.position.x,transform.position.y,transform.position.z);
+
         myrig = GetComponent<Rigidbody2D>();
-        im = button.GetComponent<Image>();   
+        //im = button.GetComponent<Image>();   
         animator = GetComponent<Animator>();
         anim = GetComponent<Animation>();
         audioSource = GetComponent<AudioSource>();
         local_x=transform.localScale.x;
         menuwin.SetActive(false);
         menulose.SetActive(false);
+        //button.GetComponent<Image>().fillAmount = 0.2f;
         
     }
 
@@ -60,6 +72,30 @@ public class rostam_code : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (can_hit == false)
+        {
+            hit_button_black.SetActive(true);
+        }
+        else
+        {
+            hit_button_black.SetActive(false);
+        }
+        if (can_charkh == false)
+        {
+            charkh_button_black.SetActive(true);
+        }
+        else
+        {
+            charkh_button_black.SetActive(false);
+        }
+        if (can_tir == false)
+        {
+            tir_button_black.SetActive(true);
+        }
+        else
+        {
+            tir_button_black.SetActive(false);
+        }
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         //if (transform.rotation.z <=10 && transform.rotation.z <= -10)
         //if (transform.rotation.z > 
@@ -67,10 +103,22 @@ public class rostam_code : MonoBehaviour
 
         if (transform.position.y < lose_height)
         {
-            menulose.SetActive(true);
-            Destroy(gameObject);
+            //menulose.SetActive(true);
+            //Destroy(gameObject);
+            health--;
+            //transform.position = new Vector3(-50f, 0f, 0f);
+            if (health == 0)
+            {
+                //menulose.SetActive(true);
+
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                transform.position = popo;
+            }
         }
-        if(Input.GetKey(KeyCode.W) || charkh==true && can_charkh == true)
+        if (Input.GetKey(KeyCode.W) || charkh==true && can_charkh == true)
         {
             animator.Play("charkhan");
             can_charkh = false;
@@ -176,11 +224,19 @@ public class rostam_code : MonoBehaviour
 
         if (collision.gameObject.tag == "enemy")
         {
-            menulose.SetActive(true);
-            Destroy(gameObject);
-            move = false;
-            animator.SetBool("isrun", true);
-            iser = true;
+            health--;
+            if (health == 0)
+            {
+                //menulose.SetActive(true);
+                Destroy(gameObject);
+                move = false;
+                animator.SetBool("isrun", true);
+                iser = true;
+            }
+            else
+            {
+                transform.position = popo;
+            }
         }
     }
 
@@ -196,6 +252,10 @@ public class rostam_code : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D tagsplayer)
     {
+        if (tagsplayer.gameObject.tag == "portal")
+        {
+            popo = new Vector3(transform.position.x,transform.position.y,transform.position.z);
+        }
         if (tagsplayer.gameObject.tag == "win_object")
         {
             string userName = Environment.UserName;
@@ -217,12 +277,38 @@ public class rostam_code : MonoBehaviour
         if (tagsplayer.gameObject.tag == "neize" && is_charkh == false)
         {
             //menulose.SetActive(true);
-            Destroy(this.gameObject);
+            // Destroy(this.gameObject);
+            health--;
+            if (health == 0)
+            {
+               // menulose.SetActive(true);
+                Destroy(gameObject);
+                move = false;
+                animator.SetBool("isrun", true);
+                iser = true;
+            }
+            else
+            {
+                transform.position = popo;
+            }
         }
         if (tagsplayer.gameObject.tag == "tir" && is_charkh == false)
         {
             //menulose.SetActive(true);
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
+            health--;
+            if (health == 0)
+            {
+                //menulose.SetActive(true);
+                Destroy(gameObject);
+                move = false;
+                animator.SetBool("isrun", true);
+                iser = true;
+            }
+            else
+            {
+                transform.position = popo;
+            }
         }
     }
     void partabkhangar()

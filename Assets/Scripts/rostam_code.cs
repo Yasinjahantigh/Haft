@@ -10,7 +10,8 @@ using UnityEngine.SceneManagement;
 
 public class rostam_code : MonoBehaviour
 {
-    int health = 3;
+    int joon ;
+    int pool;
     public int speed;
     public int jump;
     public bool ishiting;
@@ -52,6 +53,8 @@ public class rostam_code : MonoBehaviour
 
     void Start()
     {
+        string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+        joon = int.Parse(lines[0]);
         portal = transform;
         //portal.position = 
         popo = new Vector3(transform.position.x,transform.position.y,transform.position.z);
@@ -105,9 +108,9 @@ public class rostam_code : MonoBehaviour
         {
             //menulose.SetActive(true);
             //Destroy(gameObject);
-            health--;
+            joon--;
             //transform.position = new Vector3(-50f, 0f, 0f);
-            if (health == 0)
+            if (joon == 0)
             {
                 //menulose.SetActive(true);
 
@@ -222,22 +225,22 @@ public class rostam_code : MonoBehaviour
             jump2 = false;
         }
 
-        if (collision.gameObject.tag == "enemy")
-        {
-            health--;
-            if (health == 0)
-            {
-                //menulose.SetActive(true);
-                Destroy(gameObject);
-                move = false;
-                animator.SetBool("isrun", true);
-                iser = true;
-            }
-            else
-            {
-                transform.position = popo;
-            }
-        }
+        //if (collision.gameObject.tag == "enemy")
+        //{
+        //    joon--;
+        //    if (joon == 0)
+        //    {
+        //        //menulose.SetActive(true);
+        //        Destroy(gameObject);
+        //        move = false;
+        //        animator.SetBool("isrun", true);
+        //        iser = true;
+        //    }
+        //    else
+        //    {
+        //        transform.position = popo;
+        //    }
+        //}
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -278,8 +281,9 @@ public class rostam_code : MonoBehaviour
         {
             //menulose.SetActive(true);
             // Destroy(this.gameObject);
-            health--;
-            if (health == 0)
+            transform.position = popo;
+            joon--;
+            if (joon == 0)
             {
                // menulose.SetActive(true);
                 Destroy(gameObject);
@@ -296,8 +300,8 @@ public class rostam_code : MonoBehaviour
         {
             //menulose.SetActive(true);
             //Destroy(this.gameObject);
-            health--;
-            if (health == 0)
+            joon--;
+            if (joon == 0)
             {
                 //menulose.SetActive(true);
                 Destroy(gameObject);

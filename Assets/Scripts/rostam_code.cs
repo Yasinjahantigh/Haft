@@ -7,6 +7,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 
 public class rostam_code : MonoBehaviour
 {
@@ -48,13 +50,19 @@ public class rostam_code : MonoBehaviour
     public GameObject hit_button_black;
     Transform portal;
     Vector3 popo;
-   // Image im;
+    public TMP_Text textMesh_joon, textMesh_pool;
+    // Image im;
 
 
     void Start()
     {
         string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
         joon = int.Parse(lines[0]);
+        pool = int.Parse(lines[1]);
+        print(joon);
+        textMesh_joon.text = joon.ToString();
+        print(pool);
+        textMesh_pool.text = pool.ToString();
         portal = transform;
         //portal.position = 
         popo = new Vector3(transform.position.x,transform.position.y,transform.position.z);
@@ -75,6 +83,13 @@ public class rostam_code : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+        joon = int.Parse(lines[0]);
+        pool = int.Parse(lines[1]);
+        print(joon);
+        textMesh_joon.text = joon.ToString();
+        print(pool);
+        textMesh_pool.text = pool.ToString();
         if (can_hit == false)
         {
             hit_button_black.SetActive(true);

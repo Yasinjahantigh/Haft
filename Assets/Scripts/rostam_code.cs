@@ -83,13 +83,13 @@ public class rostam_code : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
-        joon = int.Parse(lines[0]);
-        pool = int.Parse(lines[1]);
-        print(joon);
-        textMesh_joon.text = joon.ToString();
-        print(pool);
-        textMesh_pool.text = pool.ToString();
+        //string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+        //joon = int.Parse(lines[0]);
+        //pool = int.Parse(lines[1]);
+        //print(joon);
+        //textMesh_joon.text = joon.ToString();
+        //print(pool);
+        //textMesh_pool.text = pool.ToString();
         if (can_hit == false)
         {
             hit_button_black.SetActive(true);
@@ -124,6 +124,7 @@ public class rostam_code : MonoBehaviour
             //menulose.SetActive(true);
             //Destroy(gameObject);
             joon--;
+            textMesh_joon.text = joon.ToString();
             //transform.position = new Vector3(-50f, 0f, 0f);
             if (joon == 0)
             {
@@ -298,6 +299,7 @@ public class rostam_code : MonoBehaviour
             // Destroy(this.gameObject);
             transform.position = popo;
             joon--;
+            textMesh_joon.text = joon.ToString();
             if (joon == 0)
             {
                // menulose.SetActive(true);
@@ -316,6 +318,7 @@ public class rostam_code : MonoBehaviour
             //menulose.SetActive(true);
             //Destroy(this.gameObject);
             joon--;
+            textMesh_joon.text = joon.ToString();
             if (joon == 0)
             {
                 //menulose.SetActive(true);
@@ -328,6 +331,12 @@ public class rostam_code : MonoBehaviour
             {
                 transform.position = popo;
             }
+        }
+        if (tagsplayer.gameObject.tag == "pool")
+        {
+            pool++;
+            Destroy(tagsplayer.gameObject);
+            textMesh_pool.text = pool.ToString();
         }
     }
     void partabkhangar()

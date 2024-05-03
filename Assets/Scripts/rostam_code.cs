@@ -41,6 +41,8 @@ public class rostam_code : MonoBehaviour
     public bool can_hit= true;
     bool can_tir = true;
     bool can_charkh = true;
+    bool can_get_pool = true;
+    bool can_die = true;
     public bool is_charkh;
     public bool hit;
     bool charkh;
@@ -123,6 +125,8 @@ public class rostam_code : MonoBehaviour
         {
             //menulose.SetActive(true);
             //Destroy(gameObject);
+            can_die = false;
+            Invoke("set_can_die", 1);
             joon--;
             textMesh_joon.text = joon.ToString();
             //transform.position = new Vector3(-50f, 0f, 0f);
@@ -293,10 +297,12 @@ public class rostam_code : MonoBehaviour
             menuwin.SetActive(true);
             Destroy(this.gameObject);
         }
-        if (tagsplayer.gameObject.tag == "neize" && is_charkh == false)
+        if (tagsplayer.gameObject.tag == "neize" && is_charkh == false && can_die)
         {
             //menulose.SetActive(true);
             // Destroy(this.gameObject);
+            can_die = false;
+            Invoke("set_can_die", 1);
             transform.position = popo;
             joon--;
             textMesh_joon.text = joon.ToString();
@@ -313,10 +319,12 @@ public class rostam_code : MonoBehaviour
                 transform.position = popo;
             }
         }
-        if (tagsplayer.gameObject.tag == "tir" && is_charkh == false)
+        if (tagsplayer.gameObject.tag == "tir" && is_charkh == false && can_die)
         {
             //menulose.SetActive(true);
             //Destroy(this.gameObject);
+            can_die = false;
+            Invoke("set_can_die", 1);
             joon--;
             textMesh_joon.text = joon.ToString();
             if (joon == 0)
@@ -332,12 +340,13 @@ public class rostam_code : MonoBehaviour
                 transform.position = popo;
             }
         }
-        if (tagsplayer.gameObject.tag == "pool")
+        if (tagsplayer.gameObject.tag == "pool" && can_get_pool)
         {
-            pool++;
+            Invoke("set_can_pool", 0.1f);
+            can_get_pool = false;
             Destroy(tagsplayer.gameObject);
+            pool++;        
             textMesh_pool.text = pool.ToString();
-
             string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
             lines[1] = pool.ToString();
             File.WriteAllLines("Assets\\Scripts\\data.csv", lines);
@@ -407,6 +416,15 @@ public class rostam_code : MonoBehaviour
     {
         charkh = true;
     }
+    public void set_can_pool()
+    {
+        can_get_pool = true;
+    }
+    public void set_can_die()
+    {
+        can_die = true;
+    }
+
     //public void set_jump_false()
     //{
     //    isjump = false;

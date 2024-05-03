@@ -337,6 +337,10 @@ public class rostam_code : MonoBehaviour
             pool++;
             Destroy(tagsplayer.gameObject);
             textMesh_pool.text = pool.ToString();
+
+            string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+            lines[1] = pool.ToString();
+            File.WriteAllLines("Assets\\Scripts\\data.csv", lines);
         }
     }
     void partabkhangar()

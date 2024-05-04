@@ -351,6 +351,25 @@ public class rostam_code : MonoBehaviour
             lines[1] = pool.ToString();
             File.WriteAllLines("Assets\\Scripts\\data.csv", lines);
         }
+        if (tagsplayer.gameObject.tag == "tig" && can_die)
+        {
+            can_die = false;
+            Invoke("set_can_die", 1);
+            joon--;
+            textMesh_joon.text = joon.ToString();
+            if (joon == 0)
+            {
+                //menulose.SetActive(true);
+                Destroy(gameObject);
+                move = false;
+                animator.SetBool("isrun", true);
+                iser = true;
+            }
+            else
+            {
+                transform.position = popo;
+            }
+        }
     }
     void partabkhangar()
     {
@@ -366,6 +385,7 @@ public class rostam_code : MonoBehaviour
         GameObject bulletclone = Instantiate(bullet, arrotransform.position, arrotransform.rotation);
 
     }
+
     void set_can_tir()
     {
         can_tir = true;

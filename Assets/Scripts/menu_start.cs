@@ -18,7 +18,7 @@ public class menu_start : MonoBehaviour
     // Update is called once per frame
     public void OnUpdateButtonClicked()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(5);
     }
 
     public void OnStartGameButtonClicked()

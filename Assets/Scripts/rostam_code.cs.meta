@@ -3,7 +3,17 @@ guid: e8d6d6b19cd9d1745a27a5cebe20e61e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audiojump: {fileID: 8300000, guid: 73e03743fb0e108478587d9df6912d66, type: 3}
+  - menuwin: {instanceID: 0}
+  - menulose: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - arrotransform: {instanceID: 0}
+  - tir_button_black: {instanceID: 0}
+  - charkh_button_black: {instanceID: 0}
+  - hit_button_black: {instanceID: 0}
+  - textMesh_joon: {instanceID: 0}
+  - textMesh_pool: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

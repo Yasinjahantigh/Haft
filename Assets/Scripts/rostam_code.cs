@@ -175,7 +175,8 @@ public class rostam_code : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) || partab == true && can_tir == true)
         {
-            can_tir=false;
+            //audioSource.PlayOneShot(audiojump);
+            can_tir =false;
             animator.Play("tir");
             Invoke("partabkhangar", 5/6f);
             Invoke("set_can_tir", 5 / 6f);
@@ -217,18 +218,27 @@ public class rostam_code : MonoBehaviour
             }
 
 
-            if (Input.GetKeyDown(KeyCode.Space) || isjump == true && jump2 == false)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                if (jump1 == true)
+                if (jump2 == false)
                 {
-                    jump2 = true;
+                    //ground = false;
+                    if (jump1 == false)
+                    {
+                        jump1 = true;
+                    }
+                    else
+                    {
+                        jump2 = true;
+                    }
+                    myrig.velocity = new Vector2(myrig.velocity.x, jump);
+                    animator.Play("jump");
+                    audioSource.PlayOneShot(audiojump);
+                    
                 }
-                myrig.velocity = new Vector2(myrig.velocity.x, jump);
-                animator.Play("jump");
-                audioSource.PlayOneShot(audiojump);
             }
+
             
-            isjump= false;
 
         }
         charkh = false;
@@ -240,9 +250,13 @@ public class rostam_code : MonoBehaviour
     {
         if (collision.gameObject.tag == "ground")
         {
-            ground = true;
-            jump1 = false;
-            jump2 = false;
+            //ground = true;
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            if (!stateInfo.IsName("jump"))
+            {
+                jump1 = false;
+                jump2 = false;
+            }
         }
 
         //if (collision.gameObject.tag == "enemy")
@@ -265,12 +279,12 @@ public class rostam_code : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "ground")
-        {
-            ground = false;
-            jump1 = true;
-            iser = false;
-        }
+        //if (collision.gameObject.tag == "ground")
+        //{
+        //    ground = false;
+        //    jump1 = true;
+        //    iser = false;
+        //}
     }
 
     void OnTriggerEnter2D(Collider2D tagsplayer)
@@ -422,7 +436,21 @@ public class rostam_code : MonoBehaviour
 
     public void set_jump_true()
     {
-        isjump = true;
+        if (jump2 == false)
+        {
+            ground = false;
+            if (jump1 == false)
+            {
+                jump1 = true;
+            }
+            else
+            {
+                jump2 = true;
+            }
+            myrig.velocity = new Vector2(myrig.velocity.x, jump);
+            animator.Play("jump");
+            audioSource.PlayOneShot(audiojump);
+        }
     }
     public void set_hit_true()
     {

@@ -1,0 +1,54 @@
+دیتا بیس به این صورت است
+
+key
+value
+
+
+افزودن داده به دیتابیس:
+
+void ExampleUsage()
+{
+    DatabaseManager dbManager = FindObjectOfType<DatabaseManager>();
+
+    PlayerData newPlayer = new PlayerData()
+    {
+        key = "speed",
+        value = "10"
+    };
+
+    dbManager.InsertData(newPlayer);
+}
+
+
+
+خواندن داده:
+
+void FetchAllPlayers()
+{
+    DatabaseManager dbManager = FindObjectOfType<DatabaseManager>();
+    List<PlayerData> allPlayers = dbManager.GetAllData();
+
+    foreach (PlayerData player in allPlayers)
+    {
+        Debug.Log("key: " + player.key + ", value: " + player.value);
+    }
+}
+
+
+پیدا کردن داده:
+
+void ExampleUsage()
+{
+    DatabaseManager dbManager = FindObjectOfType<DatabaseManager>();
+    string key = "speed";
+
+    string value = dbManager.Get_value_By_key(key);
+    if (value != -1)
+    {
+        Debug.Log("value of " + key + " is: " + value);
+    }
+    else
+    {
+        Debug.Log("key not found");
+    }
+}

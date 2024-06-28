@@ -290,10 +290,12 @@ public class rostam_code : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D tagsplayer)
     {
+
         if (tagsplayer.gameObject.tag == "portal")
         {
             popo = new Vector3(transform.position.x,transform.position.y,transform.position.z);
         }
+
         if (tagsplayer.gameObject.tag == "win_object")
         {
             string userName = Environment.UserName;
@@ -312,6 +314,7 @@ public class rostam_code : MonoBehaviour
             menuwin.SetActive(true);
             Destroy(this.gameObject);
         }
+
         if (tagsplayer.gameObject.tag == "neize" && is_charkh == false && can_die)
         {
             //menulose.SetActive(true);
@@ -334,6 +337,7 @@ public class rostam_code : MonoBehaviour
                 transform.position = popo;
             }
         }
+
         if (tagsplayer.gameObject.tag == "tir" && is_charkh == false && can_die)
         {
             //menulose.SetActive(true);
@@ -355,6 +359,27 @@ public class rostam_code : MonoBehaviour
                 transform.position = popo;
             }
         }
+        if (tagsplayer.gameObject.tag == "jadoo" && can_die)
+        {
+            can_die = false;
+            Invoke("set_can_die", 1);
+            transform.position = popo;
+            joon--;
+            textMesh_joon.text = joon.ToString();
+            if (joon == 0)
+            {
+                // menulose.SetActive(true);
+                Destroy(gameObject);
+                move = false;
+                animator.SetBool("isrun", true);
+                iser = true;
+            }
+            else
+            {
+                transform.position = popo;
+            }
+        }
+        
         if (tagsplayer.gameObject.tag == "pool" && can_get_pool)
         {
             Invoke("set_can_pool", 0.1f);

@@ -24,7 +24,7 @@ public class enemy_neize : MonoBehaviour
     void Start()
     {
         l = Rostam.GetComponent<rostam_code>();
-        print(l.speed);
+
         //Rostam.GetComponent<rostam_code>
         localx = transform.localScale.x;
         walk_right = true;

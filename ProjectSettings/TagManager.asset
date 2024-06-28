@@ -14,6 +14,11 @@ TagManager:
   - ground
   - balaable
   - win_object
+  - rostam
+  - portal
+  - tig
+  - pool
+  - jadoo
   layers:
   - Default
   - TransparentFX

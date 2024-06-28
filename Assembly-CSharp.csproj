@@ -68,12 +68,12 @@
     <Compile Include="Assets\Scripts\levels.cs" />
     <Compile Include="Assets\Scripts\rostam_code.cs" />
     <Compile Include="Assets\Scripts\levels_manager.cs" />
-    <Compile Include="Assets\Scripts\DatabaseManager.cs" />
     <Compile Include="Assets\Scripts\camera.cs" />
     <Compile Include="Assets\Scripts\tir.cs" />
     <Compile Include="Assets\Scripts\update_code.cs" />
     <Compile Include="Assets\Scripts\button_control.cs" />
     <Compile Include="Assets\Scripts\portal.cs" />
+    <Compile Include="Assets\Scripts\jadoo.cs" />
     <Compile Include="Assets\Scripts\enemy_kaman.cs" />
     <Compile Include="Assets\Scripts\spawn.cs" />
     <Compile Include="Assets\Scripts\enemy_neize.cs" />
@@ -1074,10 +1074,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{AD2C0208-4558-5E2C-0E6D-FE7DE4A31280}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

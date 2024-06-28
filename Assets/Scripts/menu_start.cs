@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
+
 
 
 public class menu_start : MonoBehaviour
@@ -13,6 +15,16 @@ public class menu_start : MonoBehaviour
     {
         helpPanel.SetActive(false);
         aboutUsPanel.SetActive(false);
+
+
+        string path = Path.Combine(Application.persistentDataPath, "data.csv");
+        string content = "1\n0\n15\n6\n2\n12";
+
+        // نوشتن محتوا در فایل
+        if (!File.Exists(path))
+        {
+            File.WriteAllText(path, content);
+        }
     }
 
     // Update is called once per frame

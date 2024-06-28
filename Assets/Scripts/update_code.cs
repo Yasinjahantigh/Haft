@@ -12,7 +12,9 @@ public class update_code : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+        string path = Path.Combine(Application.persistentDataPath, "data.csv"); ;
+
+        string[] lines = File.ReadAllLines(path);
         int joon = int.Parse(lines[0]);
         int pool = int.Parse(lines[1]);
         int sorat = int.Parse(lines[2]);
@@ -31,7 +33,9 @@ public class update_code : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+        string path = Path.Combine(Application.persistentDataPath, "data.csv"); ;
+
+        string[] lines = File.ReadAllLines(path);
         int joon = int.Parse(lines[0]);
         int pool = int.Parse(lines[1]);
         int sorat = int.Parse(lines[2]);

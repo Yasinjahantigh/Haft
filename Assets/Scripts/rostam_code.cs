@@ -55,10 +55,11 @@ public class rostam_code : MonoBehaviour
     public TMP_Text textMesh_joon, textMesh_pool;
     // Image im;
 
-
     void Start()
     {
-        string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+        string path = Path.Combine(Application.persistentDataPath, "data.csv");
+
+        string[] lines = File.ReadAllLines(path);
         joon = int.Parse(lines[0]);
         pool = int.Parse(lines[1]);
         print(joon);
@@ -361,9 +362,11 @@ public class rostam_code : MonoBehaviour
             Destroy(tagsplayer.gameObject);
             pool++;        
             textMesh_pool.text = pool.ToString();
-            string[] lines = File.ReadAllLines("Assets\\Scripts\\data.csv");
+            string path = Path.Combine(Application.persistentDataPath, "data.csv");
+
+        string[] lines = File.ReadAllLines(path);
             lines[1] = pool.ToString();
-            File.WriteAllLines("Assets\\Scripts\\data.csv", lines);
+            File.WriteAllLines(path, lines);
         }
         if (tagsplayer.gameObject.tag == "tig" && can_die)
         {

@@ -906,7 +906,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -8726,6 +8726,7 @@ GameObject:
   - component: {fileID: 1927975640}
   - component: {fileID: 1927975639}
   - component: {fileID: 1927975638}
+  - component: {fileID: 1927975641}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8776,7 +8777,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 43.93
+  orthographic size: 34.85
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8801,12 +8802,25 @@ Transform:
   m_GameObject: {fileID: 1927975637}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 117.80119, y: 3.21, z: -10}
+  m_LocalPosition: {x: 109.34, y: 3.21, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1927975641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927975637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d285ecdcac9ba2e44b215f874004b573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterTransform: {fileID: 211028300}
 --- !u!1 &1968170628
 GameObject:
   m_ObjectHideFlags: 0
@@ -9379,6 +9393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rostam
       objectReference: {fileID: 0}
+    - target: {fileID: 5873102950045846866, guid: e4ac59933b9ed264197ae7548b85a401,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5873102950581870616, guid: e4ac59933b9ed264197ae7548b85a401,
         type: 3}
       propertyPath: m_Enabled
@@ -9607,6 +9626,7 @@ AudioSource:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1927975640}
   - {fileID: 1327756134}
   - {fileID: 1405789330}
   - {fileID: 1573611399}
@@ -9629,4 +9649,3 @@ SceneRoots:
   - {fileID: 492595622}
   - {fileID: 1328004265}
   - {fileID: 1026247510}
-  - {fileID: 1927975640}

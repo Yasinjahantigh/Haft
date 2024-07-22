@@ -839,6 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
+  speedhit: 0
   jump: 8
   ishiting: 0
   audiojump: {fileID: 0}
@@ -10666,6 +10667,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373765433881301045, guid: e4ac59933b9ed264197ae7548b85a401,
+        type: 3}
+      propertyPath: speedhit
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7373765433881301045, guid: e4ac59933b9ed264197ae7548b85a401,
         type: 3}

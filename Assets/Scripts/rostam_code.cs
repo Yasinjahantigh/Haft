@@ -15,6 +15,7 @@ public class rostam_code : MonoBehaviour
     int joon ;
     int pool;
     public int speed;
+    public float speedhit;
     public int jump;
     public bool ishiting;
     public AudioClip audiojump;
@@ -34,7 +35,6 @@ public class rostam_code : MonoBehaviour
     Animation anim;
     public GameObject menuwin;
     public GameObject menulose;
-  //  public GameObject button;
     float local_x;
     public GameObject bullet;
     public Transform arrotransform;
@@ -53,7 +53,6 @@ public class rostam_code : MonoBehaviour
     Transform portal;
     Vector3 popo;
     public TMP_Text textMesh_joon, textMesh_pool;
-    // Image im;
 
     void Start()
     {
@@ -162,12 +161,20 @@ public class rostam_code : MonoBehaviour
         {
             can_hit = false;
             //animator.SetBool("ishit", true);
-            animator.Play("hti");
+            animator.Play("hit3");
             Invoke("set_can_hit", 1);
         }
-        if (stateInfo.IsName("hti"))
+        if (stateInfo.IsName("hit3"))
         {
             ishiting=true;
+            if (transform.localScale.x > 0)
+            {
+                transform.Translate(new Vector2(speedhit * Time.deltaTime, 0));
+            }
+            else
+            {
+                transform.Translate(new Vector2(-speedhit * Time.deltaTime, 0));
+            }
         }
         else
         {
@@ -500,10 +507,4 @@ public class rostam_code : MonoBehaviour
     {
         can_die = true;
     }
-
-    //public void set_jump_false()
-    //{
-    //    isjump = false;
-    //}
-
 }

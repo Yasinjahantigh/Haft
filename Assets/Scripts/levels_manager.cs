@@ -19,17 +19,17 @@ public class levels_manager : MonoBehaviour
 
     public void load_level_1()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);//10
     }
 
     public void load_level_2()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(11);
     }
 
     public void load_level_3()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(12);
     }
 
     public void next_level()

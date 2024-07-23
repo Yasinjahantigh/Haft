@@ -18,19 +18,30 @@ public class menu_start : MonoBehaviour
 
 
         string path = Path.Combine(Application.persistentDataPath, "data.csv");
-        string content = "1\n0\n15\n6\n2\n12";
+        string content = "1\n1\n10, 12, 14, 16, 18\n0.83333, 0.83333, 0.83333, 0.83333, 0.83333\n1, 2, 3, 4, 5\n7, 6, 5, 4, 3\n1\n1\n1\n1";
 
-        // نوشتن محتوا در فایل
+        // نوشتن محتوا رستم
         if (!File.Exists(path))
         {
             File.WriteAllText(path, content);
         }
+
+        //نوشتن لول و دیتا مورد نیاز برای خود بازی
+
+        string path_data_game = Path.Combine(Application.persistentDataPath, "data_game.csv");
+        string content_d = "10";
+
+        if (!File.Exists(path_data_game))
+        {
+            File.WriteAllText(path_data_game, content_d);
+        }
+        print(path);
     }
 
     // Update is called once per frame
     public void OnUpdateButtonClicked()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(2);
     }
 
     public void OnStartGameButtonClicked()

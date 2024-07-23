@@ -16,16 +16,15 @@ public class levels : MonoBehaviour
 
     void Start()
     {
-        string userName = Environment.UserName;
-        string text = File.ReadAllText("C:\\Users\\"+userName+"\\Documents\\7\\data.csv");
-        string[] lines = text.Split('\n');
+        string path_data_game = Path.Combine(Application.persistentDataPath, "data_game.csv");
+        string[] lines = File.ReadAllLines(path_data_game);
 
-        if (int.Parse(lines[0]) == 1)
+        if (int.Parse(lines[0]) == 10)
         {
             btn2.interactable = false;
             btn3.interactable = false;
         }
-        else if (int.Parse(lines[0]) == 2)
+        else if (int.Parse(lines[0]) == 11)
         {
             btn3.interactable = false;
         }

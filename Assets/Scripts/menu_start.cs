@@ -18,7 +18,7 @@ public class menu_start : MonoBehaviour
 
 
         string path = Path.Combine(Application.persistentDataPath, "data.csv");
-        string content = "1\n1\n10, 12, 14, 16, 18\n0.83333, 0.83333, 0.83333, 0.83333, 0.83333\n1, 2, 3, 4, 5\n7, 6, 5, 4, 3\n1\n1\n1\n1";
+        string content = "1\n1000\n10, 12, 14, 16, 18\n0.83333, 0.83333, 0.83333, 0.83333, 0.83333\n1, 2, 3, 4, 5\n7, 6, 5, 4, 3\n1\n1\n1\n1";
 
         // نوشتن محتوا رستم
         if (!File.Exists(path))

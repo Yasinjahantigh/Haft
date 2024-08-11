@@ -52,6 +52,8 @@ public class rostam_code : MonoBehaviour
     Transform portal;
     Vector3 popo;
     public TMP_Text textMesh_joon, textMesh_pool;
+    bool canrun = true;
+
 
     void Start()
     {
@@ -192,27 +194,27 @@ public class rostam_code : MonoBehaviour
 
         if (can_tir == true && can_hit == true)
         {
-            if (isgo_right == true)
+            if (isgo_right == true && canrun)
             {
                 transform.Translate(new Vector2(speed * Time.deltaTime, 0));
                 transform.localScale = new Vector3(local_x, transform.localScale.y, transform.localScale.z);
                 animator.SetBool("isrun", true);
             }
 
-            if (Input.GetKey(KeyCode.RightArrow) || isgo_right == true)
+            if (Input.GetKey(KeyCode.RightArrow) && canrun || isgo_right == true && canrun)
             {
                 transform.Translate(new Vector2(speed * Time.deltaTime, 0));
                 transform.localScale = new Vector3(local_x, transform.localScale.y, transform.localScale.z);
                 animator.SetBool("isrun", true);
             }
 
-            if (isgo_left == true)
+            if (isgo_left == true && canrun)
             {
                 transform.Translate(new Vector2(-speed * Time.deltaTime, 0));
                 transform.localScale = new Vector3(-local_x, transform.localScale.y, transform.localScale.z);
                 animator.SetBool("isrun", true);
             }
-            if (Input.GetKey(KeyCode.LeftArrow) || isgo_left == true)
+            if (Input.GetKey(KeyCode.LeftArrow) && canrun || isgo_left == true && canrun)
             {
                 transform.Translate(new Vector2(-speed * Time.deltaTime, 0));
                 transform.localScale = new Vector3(-local_x, transform.localScale.y, transform.localScale.z);
@@ -227,6 +229,7 @@ public class rostam_code : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                canrun = false;
                 if (jump2 == false)
                 {
                     //ground = false;
@@ -240,9 +243,9 @@ public class rostam_code : MonoBehaviour
                     }
                     myrig.velocity = new Vector2(myrig.velocity.x, jump);
                     animator.Play("jump");
-                    audioSource.PlayOneShot(audiojump);
-                    
+                    audioSource.PlayOneShot(audiojump);   
                 }
+                canrun = true;
             }
 
             
@@ -311,6 +314,7 @@ public class rostam_code : MonoBehaviour
             string[] lines = text.Split('\n');
             int num = int.Parse(lines[0]);
             print("num:");
+            
             print(num);
             if (num == (SceneManager.GetActiveScene().buildIndex) - 1)
             {

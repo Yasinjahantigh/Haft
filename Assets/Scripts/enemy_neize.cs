@@ -129,7 +129,10 @@ public class enemy_neize : MonoBehaviour
         if (collision.gameObject.tag == "rostam" && l.is_charkh == true)
         {
             Destroy(this.gameObject);
-
+        }
+        if (collision.gameObject.tag == "rostam")
+        {
+            tagib = true;
         }
     }
     void OnTriggerEnter2D(Collider2D collision)

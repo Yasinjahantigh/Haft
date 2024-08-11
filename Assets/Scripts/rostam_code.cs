@@ -133,9 +133,11 @@ public class rostam_code : MonoBehaviour
             //transform.position = new Vector3(-50f, 0f, 0f);
             if (joon == 0)
             {
-                //menulose.SetActive(true);
-
-                Destroy(this.gameObject);
+                menulose.SetActive(true);
+                // Destroy(gameObject);
+                move = false;
+                animator.SetBool("isrun", true);
+                iser = true;
             }
             else
             {
@@ -307,22 +309,19 @@ public class rostam_code : MonoBehaviour
 
         if (tagsplayer.gameObject.tag == "win_object")
         {
-            string userName = Environment.UserName;
-
-            print("win");
-            string text = File.ReadAllText("C:\\Users\\"+userName+"\\Documents\\7\\data.csv");
-            string[] lines = text.Split('\n');
+            string path = Path.Combine(Application.persistentDataPath, "data_game.csv");
+            string[] lines = File.ReadAllLines(path);
             int num = int.Parse(lines[0]);
+
             print("num:");
-            
             print(num);
-            if (num == (SceneManager.GetActiveScene().buildIndex) - 1)
+            if (num == (SceneManager.GetActiveScene().buildIndex))
             {
                 num = num + 1;
             }
-            File.WriteAllText("C:\\Users\\"+userName+"\\Documents\\7\\data.csv", num.ToString());
+            File.WriteAllText(path, num.ToString());
+            // File.WriteAllText("C:\\Users\\"+userName+"\\Documents\\7\\data.csv", num.ToString());
             menuwin.SetActive(true);
-            Destroy(this.gameObject);
         }
 
         if (tagsplayer.gameObject.tag == "neize" && is_charkh == false && can_die)
@@ -336,8 +335,8 @@ public class rostam_code : MonoBehaviour
             textMesh_joon.text = joon.ToString();
             if (joon == 0)
             {
-               // menulose.SetActive(true);
-                Destroy(gameObject);
+                menulose.SetActive(true);
+                // Destroy(gameObject);
                 move = false;
                 animator.SetBool("isrun", true);
                 iser = true;
@@ -358,8 +357,8 @@ public class rostam_code : MonoBehaviour
             textMesh_joon.text = joon.ToString();
             if (joon == 0)
             {
-                //menulose.SetActive(true);
-                Destroy(gameObject);
+                menulose.SetActive(true);
+                // Destroy(gameObject);
                 move = false;
                 animator.SetBool("isrun", true);
                 iser = true;
@@ -378,8 +377,8 @@ public class rostam_code : MonoBehaviour
             textMesh_joon.text = joon.ToString();
             if (joon == 0)
             {
-                // menulose.SetActive(true);
-                Destroy(gameObject);
+                menulose.SetActive(true);
+                // Destroy(gameObject);
                 move = false;
                 animator.SetBool("isrun", true);
                 iser = true;
@@ -411,8 +410,8 @@ public class rostam_code : MonoBehaviour
             textMesh_joon.text = joon.ToString();
             if (joon == 0)
             {
-                //menulose.SetActive(true);
-                Destroy(gameObject);
+                menulose.SetActive(true);
+                // Destroy(gameObject);
                 move = false;
                 animator.SetBool("isrun", true);
                 iser = true;

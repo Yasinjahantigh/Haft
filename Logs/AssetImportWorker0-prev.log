@@ -1,0 +1,903 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.28f1 (6bae5ce6b222) revision 7056988'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Enterprise' Language: 'en' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity 2022.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/armin/GitHub/nahaee/Haft
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63673
+Successfully changed project path to: E:/armin/GitHub/nahaee/Haft
+E:/armin/GitHub/nahaee/Haft
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17684] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 81107116 [EditorId] 81107116 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JON6L2G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17684] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 81107116 [EditorId] 81107116 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JON6L2G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 18.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path F:/Unity 2022.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/armin/GitHub/nahaee/Haft/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.15.1169
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+Failed to set the cursor because the specified texture ('1') was not CPU accessible.
+Initialize mono
+Mono path[0] = 'F:/Unity 2022.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity 2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity 2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity 2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016094 seconds.
+- Loaded All Assemblies, in  1.264 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 2135ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (179ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (529ms)
+			TypeCache.Refresh (525ms)
+				TypeCache.ScanAssembly (473ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (639ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.582 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.833 seconds
+Domain Reload Profiling: 3413ms
+	BeginReloadAssembly (414ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (127ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (887ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (386ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (290ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (1007ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (59.3 KB). Loaded Objects now: 2919.
+Memory consumption went from 112.9 MB to 112.8 MB.
+Total: 6.275200 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.264600 ms MarkObjects: 4.631300 ms  DeleteObjects: 1.071600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162912.536707 seconds.
+  path: Assets/zamin/z_1 1.png
+  artifactKey: Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_1 1.png using Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2978c1022d29ae27ec822e188d0bfd54') in 0.244974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.248368 seconds.
+  path: Assets/zamin/z_8.png
+  artifactKey: Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8.png using Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5e2eb035dd1546fc8aa4325c485f74') in 0.026816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.759507 seconds.
+  path: Assets/zamin/z_8.png
+  artifactKey: Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8.png using Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b64c8c82d3d0d7d1b0abd1054c1869') in 0.021719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.016240 seconds.
+  path: Assets/zamin/z_8.png
+  artifactKey: Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8.png using Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4419e76d8abe28bf2736409d0a6a3186') in 0.034646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 31.728772 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3cbf95c002107a6a198944249b36fa') in 0.079516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.378259 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154fcfbfeab0700fc5604c7e02ac621c') in 0.019541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 14.700865 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf0726385c39f6616588920aa2b7ad8') in 0.017196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.134389 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf02404c38a0a06fd44bcfd11200400') in 0.015944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.197274 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416df069e32aef9ad6a962d5970b1395') in 0.016072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.674775 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1205eca0d1c9ae1c08ee880c73859813') in 0.019242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.827592 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6f6fd01ead44451b8c5935926347c7') in 0.027364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.590476 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35e7794223c105b0578985746e663b5') in 0.013898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.051831 seconds.
+  path: Assets/zamin/z_8_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e3f11791113b95389662f7a8880678') in 0.019049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 11.451331 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cbe697ba0eed82bb1294c24fe1d156') in 0.014439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.481032 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad2494bbc879b403186e517f2f7ae91') in 0.010134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.605938 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99ac9968a7ad94b3a9df97e69e586b7') in 0.013105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.451515 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d53b41a5469a1882612d98102470944') in 0.013521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.270413 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9d3a638a14be63f001fb3db3887160') in 0.012326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.435858 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3adcff5c67bba4baf37916723a1a7d') in 0.023120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.844371 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0faf61188aa06f6e2ce253eced97a0') in 0.018869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 60.511488 seconds.
+  path: Assets/zamin/z_8_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_8_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce659a5df6c8f909e0cc442e174aceb') in 0.022077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zamin/z_11.png
+  artifactKey: Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_11.png using Guid(6978228fed162ec4c9c092db64746787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab52c1cd5bb728250e5d3d9213be8b29') in 0.035067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 11.161278 seconds.
+  path: Assets/zamin/z_11_down.prefab
+  artifactKey: Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_11_down.prefab using Guid(1cbd0d2771247434fae5842b6e0734d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f79e1005d1f9edd121ffa002b2bb817') in 0.019961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.798621 seconds.
+  path: Assets/zamin/z_11_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_11_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4b59decc048fd2052c4bfdf5033e83') in 0.019609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 12.679588 seconds.
+  path: Assets/zamin/z_2 1.png
+  artifactKey: Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_2 1.png using Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c479c044f12e7eedb70613b17243a') in 0.052368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.625996 seconds.
+  path: Assets/zamin/z_22.png
+  artifactKey: Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22.png using Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf8765765b7b72fbe8f20caf2850866') in 0.031083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.131897 seconds.
+  path: Assets/zamin/z_22.png
+  artifactKey: Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22.png using Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e5173ae02f26ba98a09773d07f7ae7') in 0.026150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.425787 seconds.
+  path: Assets/zamin/z_22.png
+  artifactKey: Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22.png using Guid(a56f58ac4ff2a3c4e93f38e86693669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a803efb7086e2208ed8c4390f5273a0') in 0.053282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2981.691855 seconds.
+  path: Assets/zamin/z_22_down.prefab
+  artifactKey: Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_down.prefab using Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5ff7f81948f4726e398e72472c5dbc') in 0.064039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.262618 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308059349f68e83c182d426e384dc3d7') in 0.039485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 7.398310 seconds.
+  path: Assets/zamin/z_22_down.prefab
+  artifactKey: Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_down.prefab using Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4360a29ef846a0c3d15b6023a2b11c8e') in 0.024626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.446791 seconds.
+  path: Assets/zamin/z_22_down.prefab
+  artifactKey: Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_down.prefab using Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7a575223f59ec3f66825a1a6e48f25') in 0.014660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.855595 seconds.
+  path: Assets/zamin/z_22_down.prefab
+  artifactKey: Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_down.prefab using Guid(50aec54c041eff84a8d4a8f2c4f0c622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1a71fab467e5f7bd7df7dc4909279e') in 0.025599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.300791 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e9d3b62c44efb02ded213e1aa4ea90') in 0.028714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 8.818993 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f20ab68f61ed6b79892a05d9680cc2') in 0.017122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.406446 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d7a943194e0345cfa4025c3cbfc8b8') in 0.014452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.402481 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d84b1f305281e3a37c015e968b75207') in 0.026015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.247579 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc3dd8339406dc1a2811131609c90e1') in 0.019729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.074976 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6754b65e1511fafb44b10ae236ce53e7') in 0.024723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.063003 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad680b3bf4a813ae23a44330f093e01') in 0.021499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.241629 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e5d0d8acbfbff5cd36f234011cc8d') in 0.015008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.637132 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd471a8766bd15ac7b3a7c369295535f') in 0.017697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 9.073193 seconds.
+  path: Assets/zamin/z_11_up.prefab
+  artifactKey: Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_11_up.prefab using Guid(cbbeb21d331a2a041bc145e8fb8f7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e31c30596c718b7e197f4c55441a64d') in 0.029242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.389385 seconds.
+  path: Assets/zamin/z_22_up.prefab
+  artifactKey: Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_22_up.prefab using Guid(9d3eed30b2bfcbf45964dd3000a7690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d8dc3f194ffec4df6586098dc32f4f') in 0.025372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.905543 seconds.
+  path: Assets/zamin/z_3 1.png
+  artifactKey: Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_3 1.png using Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c54669556573a5eeb5aa5b601c7e9f') in 0.041974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.240598 seconds.
+  path: Assets/zamin/z_33.png
+  artifactKey: Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33.png using Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef095bad98930a9ecfe25369f562e076') in 0.021519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.066399 seconds.
+  path: Assets/zamin/z_33.png
+  artifactKey: Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33.png using Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861788b9c52d151f88bffd4370f63764') in 0.028848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 117.980520 seconds.
+  path: Assets/zamin/z_33.png
+  artifactKey: Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33.png using Guid(58eeda72dee4bc0419ae0bd2dbfdee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8023ab8907759539aab11225a57caccb') in 0.031718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.944396 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e7b793f7fe3ec678c0a114e7d6ac7a') in 0.019796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.096063 seconds.
+  path: Assets/zamin/z_33_down.prefab
+  artifactKey: Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_down.prefab using Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795f7d710e6bb6c306ada72f68695df1') in 0.017056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.622828 seconds.
+  path: Assets/zamin/z_33_down.prefab
+  artifactKey: Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_down.prefab using Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a20bde39ea0d8dfd3199d159dc74b3a') in 0.025669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.032163 seconds.
+  path: Assets/zamin/z_33_down.prefab
+  artifactKey: Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_down.prefab using Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a607b5a88b4576f8520f24332dda639a') in 0.010444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.064171 seconds.
+  path: Assets/zamin/z_33_down.prefab
+  artifactKey: Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_down.prefab using Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918f8a409dfac55bfe614da9247c6b54') in 0.025109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.988430 seconds.
+  path: Assets/zamin/z_33_down.prefab
+  artifactKey: Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_down.prefab using Guid(fc6ea9b1a6195124fbf4460b7fb79cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65bdb571fb4703b67a9164a3aef1f28') in 0.021838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 8.379098 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b155358be363420e952639b045bb9') in 0.026055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.067746 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbae23d587492140d7c482113f64e6bf') in 0.019972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.833843 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237a0a8d87d2e8d76231da901a54bbfe') in 0.021491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.815945 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab92c62f818ac24cd4abd6823fa45e07') in 0.012585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.221096 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672520f9d53a1f9c368031a9aaae0cba') in 0.019513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.603599 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17a52939063bf2f209d1c54d568625e') in 0.020759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.281721 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f5cbb7003a281dceb6128dd0487b6') in 0.025958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.331914 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17265f8e484eca20c514830dcf719900') in 0.023526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.066873 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad87b619036ce9390df2bdc87f7626e') in 0.019948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.819894 seconds.
+  path: Assets/zamin/z_33_up.prefab
+  artifactKey: Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_33_up.prefab using Guid(fada0071d5813934ba134d63444ecf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f586e0437ba08f115c365a68f450bd8f') in 0.017757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.228724 seconds.
+  path: Assets/zamin/z_4 1.png
+  artifactKey: Guid(4e773975f0a332246b49696b47088927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_4 1.png using Guid(4e773975f0a332246b49696b47088927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3906cb972009b6bff401bc2f421f93cd') in 0.032837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.537491 seconds.
+  path: Assets/zamin/z_44.png
+  artifactKey: Guid(4e773975f0a332246b49696b47088927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_44.png using Guid(4e773975f0a332246b49696b47088927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3994bd20a59c5b98604ef42a3cdfa2') in 0.028692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.908860 seconds.
+  path: Assets/zamin/z_44.png
+  artifactKey: Guid(4e773975f0a332246b49696b47088927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_44.png using Guid(4e773975f0a332246b49696b47088927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb869e7cddc5d6562d144c8aba03c4c3') in 0.022600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.185334 seconds.
+  path: Assets/zamin/z_5 1.png
+  artifactKey: Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_5 1.png using Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d140b513d69c79544fa7fe6c9323c10') in 0.028027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.503312 seconds.
+  path: Assets/zamin/z_55.png
+  artifactKey: Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55.png using Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9768f5fb70793ddef513832ecbcf8e3d') in 0.017487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.693791 seconds.
+  path: Assets/zamin/z_55.png
+  artifactKey: Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55.png using Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0072eeb5a8ecd833e184b8684a30722') in 0.037441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.992846 seconds.
+  path: Assets/zamin/z_55.png
+  artifactKey: Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55.png using Guid(92c0722817292d444b4021d74e321124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2210db28cdbf5359bcebe1ecc25cec3b') in 0.028407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 12.374485 seconds.
+  path: Assets/zamin/z_55_up.prefab
+  artifactKey: Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_up.prefab using Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bc739ed70fe2387fbb246c3351d0f1') in 0.111665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.766317 seconds.
+  path: Assets/zamin/z_55_down.prefab
+  artifactKey: Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_down.prefab using Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099a8c88afd33a93380bdd9c394a5575') in 0.021165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 9.486929 seconds.
+  path: Assets/zamin/z_55_down.prefab
+  artifactKey: Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_down.prefab using Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4adecc6dcec63f4d22fe602cf590fd') in 0.026225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.863815 seconds.
+  path: Assets/zamin/z_55_down.prefab
+  artifactKey: Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_down.prefab using Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f98d789ff8dda636f83cf214629a79') in 0.014873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.633919 seconds.
+  path: Assets/zamin/z_55_down.prefab
+  artifactKey: Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_down.prefab using Guid(285f20c8321f0f44688f6ea89853bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d03bce895c33137e889efefc09dcf0b') in 0.022844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.807406 seconds.
+  path: Assets/zamin/z_55_up.prefab
+  artifactKey: Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_up.prefab using Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd75b75a20b0423d4aee0eb294cd96b3') in 0.017636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.571520 seconds.
+  path: Assets/zamin/z_55_up.prefab
+  artifactKey: Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_up.prefab using Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b07e505fd20bd4dcca0b410e5ea884f') in 0.021386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.911183 seconds.
+  path: Assets/zamin/z_55_up.prefab
+  artifactKey: Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zamin/z_55_up.prefab using Guid(600cf690bcf214a40b682cd0b540b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8fc255a0196294487d01f31882fa85') in 0.024012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 638.906641 seconds.
+  path: Assets/mavaneh/IMG_20240427_211225_798.PNG
+  artifactKey: Guid(f09a2b4910be2604d95bc8e110184a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mavaneh/IMG_20240427_211225_798.PNG using Guid(f09a2b4910be2604d95bc8e110184a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbb8f6c1db91d029480142267a6772d') in 0.132956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.058331 seconds.
+  path: Assets/mavaneh/IMG_20240427_211226_339 1.PNG
+  artifactKey: Guid(0c40e2793cd4e7441b3e94e519399fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mavaneh/IMG_20240427_211226_339 1.PNG using Guid(0c40e2793cd4e7441b3e94e519399fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c5902a5c1993e8ec98f1fa8bbf09ae') in 0.110029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038233 seconds.
+  path: Assets/mavaneh/Untitled-1.png
+  artifactKey: Guid(288368ee979fbaf4db80c8564c0ea440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mavaneh/Untitled-1.png using Guid(288368ee979fbaf4db80c8564c0ea440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b9701fc06685304103f1da2a2ef491') in 0.102534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.166 seconds
+Domain Reload Profiling: 4108ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (594ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3168ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1886ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (262ms)
+			ProcessInitializeOnLoadAttributes (1473ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (33.2 KB). Loaded Objects now: 2956.
+Memory consumption went from 110.9 MB to 110.8 MB.
+Total: 8.787900 ms (FindLiveObjects: 0.552500 ms CreateObjectMapping: 0.379400 ms MarkObjects: 7.772400 ms  DeleteObjects: 0.081600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

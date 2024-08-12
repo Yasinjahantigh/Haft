@@ -12,6 +12,7 @@ public class levels : MonoBehaviour
     public Button btn1;
     public Button btn2;
     public Button btn3;
+    public Button btn4;
 
 
     void Start()
@@ -23,10 +24,16 @@ public class levels : MonoBehaviour
         {
             btn2.interactable = false;
             btn3.interactable = false;
+            btn4.interactable = false;
         }
         else if (int.Parse(lines[0]) == 11)
         {
             btn3.interactable = false;
+            btn4.interactable = false;
+        }
+        else if (int.Parse(lines[0]) == 12)
+        {
+            btn4.interactable = false;
         }
         print(lines[0]);
     }

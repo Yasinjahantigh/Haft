@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/000000.unity
     guid: 63bb9ebe2f6624b4293ff55559b2ce78
+  - enabled: 0
+    path: Assets/Scenes/film.unity
+    guid: 775838cffed28b144bbec8b5ffd38001
   - enabled: 1
     path: Assets/Scenes/l_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729

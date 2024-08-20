@@ -67,18 +67,14 @@ public class rostam_code : MonoBehaviour
         print(pool);
         textMesh_pool.text = pool.ToString();
         portal = transform;
-        //portal.position = 
         popo = new Vector3(transform.position.x,transform.position.y,transform.position.z);
-
         myrig = GetComponent<Rigidbody2D>();
-        //im = button.GetComponent<Image>();   
         animator = GetComponent<Animator>();
         anim = GetComponent<Animation>();
         audioSource = GetComponent<AudioSource>();
         local_x=transform.localScale.x;
         menuwin.SetActive(false);
         menulose.SetActive(false);
-        //button.GetComponent<Image>().fillAmount = 0.2f;
         
     }
 

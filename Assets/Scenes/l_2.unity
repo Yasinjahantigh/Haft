@@ -622,12 +622,12 @@ PrefabInstance:
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: jump
-      value: 30
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: speed
-      value: 15
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
@@ -664,6 +664,11 @@ PrefabInstance:
       propertyPath: charkh_button_black
       value: 
       objectReference: {fileID: 732329715}
+    - target: {fileID: 1865146251075877322, guid: 42462c0d7171378459b9d5d75af85390,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2723048796853340125, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: m_Name

@@ -670,7 +670,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 582989689}
         m_TargetAssemblyTypeName: levels_manager, Assembly-CSharp
-        m_MethodName: next_level
+        m_MethodName: next_and_edite_database
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

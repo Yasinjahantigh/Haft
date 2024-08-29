@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 32
   speedhit: 25
-  jump: 33
+  jump: 30
   ishiting: 0
   audiojump: {fileID: 8300000, guid: 139b3ad4b4ecc9c4f8b8ac0e7cb9a42b, type: 3}
   iser: 0

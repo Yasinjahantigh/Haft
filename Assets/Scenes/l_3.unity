@@ -321,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 115994616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.64, y: 0, z: -10}
+  m_LocalPosition: {x: 28.64, y: 6.45, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -797,12 +797,12 @@ PrefabInstance:
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: jump
-      value: 34
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: speed
-      value: 32
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
@@ -814,6 +814,11 @@ PrefabInstance:
       propertyPath: menulose
       value: 
       objectReference: {fileID: 1098968775}
+    - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
+        type: 3}
+      propertyPath: speedhit
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 149853421990696804, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: textMesh_joon
@@ -842,7 +847,7 @@ PrefabInstance:
     - target: {fileID: 1865146251075877322, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}
       propertyPath: m_GravityScale
-      value: 5
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 2723048796853340125, guid: 42462c0d7171378459b9d5d75af85390,
         type: 3}

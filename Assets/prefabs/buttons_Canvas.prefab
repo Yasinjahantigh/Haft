@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd949a12a7f89f84f8e88f5718423fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rostam: {fileID: 0}
+  rostam: {fileID: 2723048796853340125, guid: 42462c0d7171378459b9d5d75af85390, type: 3}
 --- !u!1 &4635620411021975861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd949a12a7f89f84f8e88f5718423fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rostam: {fileID: 0}
+  rostam: {fileID: 2723048796853340125, guid: 42462c0d7171378459b9d5d75af85390, type: 3}
 --- !u!1 &8691010374043647900
 GameObject:
   m_ObjectHideFlags: 0

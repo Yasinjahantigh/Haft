@@ -13,6 +13,8 @@ public class levels : MonoBehaviour
     public Button btn2;
     public Button btn3;
     public Button btn4;
+    public Button btn5;
+    public Button btn6;
 
 
     void Start()
@@ -25,15 +27,37 @@ public class levels : MonoBehaviour
             btn2.interactable = false;
             btn3.interactable = false;
             btn4.interactable = false;
+            btn5.interactable = false;
+            btn6.interactable = false;
+
         }
         else if (int.Parse(lines[0]) == 11)
         {
             btn3.interactable = false;
             btn4.interactable = false;
+            btn5.interactable = false;
+            btn6.interactable = false;
+
         }
         else if (int.Parse(lines[0]) == 12)
         {
             btn4.interactable = false;
+            btn5.interactable = false;
+            btn6.interactable = false;
+
+        }
+
+        else if (int.Parse(lines[0]) == 13)
+        {
+            btn5.interactable = false;
+            btn6.interactable = false;
+
+        }
+
+        else if (int.Parse(lines[0]) == 14)
+        {
+            btn6.interactable = false;
+
         }
         print(lines[0]);
     }

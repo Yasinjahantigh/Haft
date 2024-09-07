@@ -68,4 +68,8 @@ public class levels : MonoBehaviour
         print("hh");
     }
 
+    public void lvls()
+    {
+        SceneManager.LoadScene(1);
+    }
 }

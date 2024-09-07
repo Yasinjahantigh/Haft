@@ -266,23 +266,6 @@ public class rostam_code : MonoBehaviour
                 jump2 = false;
             }
         }
-
-        //if (collision.gameObject.tag == "enemy")
-        //{
-        //    joon--;
-        //    if (joon == 0)
-        //    {
-        //        //menulose.SetActive(true);
-        //        Destroy(gameObject);
-        //        move = false;
-        //        animator.SetBool("isrun", true);
-        //        iser = true;
-        //    }
-        //    else
-        //    {
-        //        transform.position = popo;
-        //    }
-        //}
     }
 
     void OnCollisionExit2D(Collision2D collision)
